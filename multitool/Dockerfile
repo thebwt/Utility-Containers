@@ -6,4 +6,6 @@ RUN apt-get update && apt-get install -y \
 	telnet \
         ssh \
         rsync \
+        curl \
+        wget \
  && rm -rf /var/lib/apt/lists/*
