@@ -9,4 +9,5 @@ RUN apt-get update && apt-get install -y \
         curl \
         wget \
         debhelper \
+        devscripts \
  && rm -rf /var/lib/apt/lists/*
