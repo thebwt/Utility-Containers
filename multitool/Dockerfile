@@ -8,4 +8,5 @@ RUN apt-get update && apt-get install -y \
         rsync \
         curl \
         wget \
+        debhelper \
  && rm -rf /var/lib/apt/lists/*
