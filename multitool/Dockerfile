@@ -11,4 +11,5 @@ RUN apt-get update && apt-get install -y \
         debhelper \
         devscripts \
         git \
+        httpie \
  && rm -rf /var/lib/apt/lists/*
